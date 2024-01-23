@@ -1,10 +1,12 @@
-version: 1
+version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+       time: "04:00"
+    target-branch: "main"
     commit-message:
-      prefix: fix
-      prefix-development: chore
+      prefix: chore
       include: scope
+
