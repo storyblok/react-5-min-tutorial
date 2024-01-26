@@ -1,37 +1,54 @@
-## Storyblok 5-Minute React Tutorial Starter
+# The Storyblok 5-Minute React Tutorial Starter
 
-Welcome to the Storyblok 5-Minute React Tutorial Starter! This repository serves as a quick and easy way to get started with [Storyblok](https://storyblok.com/) and React. If you haven't done so already, make sure to sign up for a [Storyblok account](https://app.storyblok.com/#/me/spaces).
+In this tutorial, you will learn how to build a headless website using Storyblok and React. Starting with the fundamental integration of Storyblok in React. You can check out the live demo on Netlify.  If you haven't done so already, make sure to sign up for a [Storyblok account](https://app.storyblok.com/#/me/spaces).
 
-## Getting Started
+## Requirements
+To use this project you have to have a Storyblok account. If you don't have one yet you can register at [Storyblok](https://www.storyblok.com/), it's free.
+
+## How to get started?
 
 To use this starter application, follow these steps:
 
-1. #### Clone the repository to your local machine:
+1. ### Clone the repo
 
    ```bash
    git clone https://github.com/your-username/storyblok-react-tutorial-starter.git
    ```
 
-2. #### Navigate into the project directory:
-   
+2. ### Install the dependencies 
    ```bash
-   cd storyblok-react-tutorial-starter
+   npm install # or yarn install
    ```
 
-3. #### Install the dependencies 
-   ```bash
-   npm install # or yarn start
-   ```
-
-4. #### Add the Access Token
+3. ### Add the Access Token
     Create a new empty Storyblok space and add the preview token of your new space with the accessToken in index.js file.
+   
+   ```javascript
+   // In index.js
+   storyblokInit({
+   accessToken: "W1vLyxT5rQ15jBpANjnv0gtt",
+   use: [apiPlugin],
+   apiOptions: {
+      // for spaces located in the US or China:
+      // region: "us" or "cn", // you need to specify the region
+      region: ''
+   }
+   });
+   ```
 
-5. #### Run the app 
+4. ### Run your project 
    Set the preview domain in Storyblok to `http://localhost:3000/`
     ```bash
-    npm start # or yarn start
+    # to run in developer mode
+    npm run start # or yarn start
     ```
-### Additional Resources
+   
+   ```bash
+   # to run your project 
+   yarn build # or npm run build 
+   ```
+
+## Resources
 - [React Docs](https://reactjs.org/docs/getting-started.html)
 - [Storyblok Tutorial](https://www.storyblok.com/tp/add-a-headless-cms-to-react-in-5-minutes)
 - [Storyblok React Technology Hub](https://www.storyblok.com/technologies#react)
