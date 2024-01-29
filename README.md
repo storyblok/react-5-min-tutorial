@@ -1,6 +1,6 @@
 # The Storyblok 5-Minute React Tutorial Starter
 
-In this tutorial, you will learn how to build a headless website using Storyblok and React. Starting with the fundamental integration of Storyblok in React. You can check out the [live demo]() on Netlify.  If you haven't done so already, make sure to sign up for a [Storyblok account](https://app.storyblok.com/#/me/spaces).
+In this tutorial, you will learn how to build a headless website using Storyblok and React. Starting with the fundamental integration of Storyblok in React. You can check out the [live demo](storyblok-react-5-min-tutorial.netlify.app) on Netlify.  If you haven't done so already, make sure to sign up for a [Storyblok account](https://app.storyblok.com/#/me/spaces).
 
 ## Requirements
 To use this project you have to have a Storyblok account. If you don't have one yet you can register at [Storyblok](https://www.storyblok.com/), it's free.
