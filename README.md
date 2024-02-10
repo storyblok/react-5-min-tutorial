@@ -49,6 +49,6 @@ To use this starter application, follow these steps:
    ```
 
 ## Resources
-- [React Docs](https://reactjs.org/docs/getting-started.html)
+- [React Docs](https://react.dev/)
 - [Storyblok Tutorial](https://www.storyblok.com/tp/add-a-headless-cms-to-react-in-5-minutes)
 - [Storyblok React Technology Hub](https://www.storyblok.com/technologies#react)
